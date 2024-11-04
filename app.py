@@ -65,4 +65,8 @@ def signup():
 if __name__ == "__main__":
     with app.app_context():
         db.create_all()
+<<<<<<< HEAD
     app.run(debug=True)
+=======
+    app.run(debug=True)
+>>>>>>> 282df85958dc0ca1b582a6b9ae5ca26e80de8abb
